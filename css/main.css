@@ -90,6 +90,10 @@
 
 
 /*GLOBAL STYLES*/
+*{
+    border: 1px dotted red;
+}
+
 
 html {
     font-size: 16px;
@@ -98,7 +102,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    background: #fff9f0;
+    background: #fffdf9;
     /*color: #6a72cf;*/
     color: #5f5753;
 }
@@ -119,6 +123,61 @@ address {
 }
 
 
+/*Header STYLES*/
+.header-wrapper {
+    width: 90%;
+    padding: 0 5px;
+    margin: 0 5px;
+    border: 1px dotted purple;
+}
+
+header h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0 5px;
+    border: 1px dotted blue;
+    /*align-items: center;
+    width: 100%;*/
+    /*CORRECT CODE FROM HELPER CODE ADDED*/
+}
+  
+header nav ul li {
+    font-size: .80em;
+    font-weight: 200;
+    margin: 1px 10px;
+    padding: 0 5px;
+    border: 1px dotted green;
+}
+
+/*----Base Header - Footer Styles----*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/*Main Section Styles*/
+
+.blurb-wrapper,
+.vibe-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 
 
