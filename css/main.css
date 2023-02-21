@@ -123,7 +123,7 @@ address {
 }
 
 
-/*Header STYLES*/
+/**** Header Styles *****/
 .header-wrapper {
     width: 90%;
     padding: 0 5px;
@@ -156,6 +156,14 @@ header nav ul li {
     margin: 1px 10px;
     padding: 0 5px;
     border: 1px dotted green;
+}
+
+header figure {
+    padding: 0 50px;
+}
+
+header figure img {
+    width: 85%;
 }
 
 /*----Base Header - Footer Styles----*/
